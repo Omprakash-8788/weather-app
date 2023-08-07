@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+  background-color: #0c0b0b;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-family: cursive;
+  font-size: 16px;
+}
+input::placeholder {
+  font-family: cursive;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.weather-info {
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #c6c1c1;
+}
+
+.weather-container {
+  background-color: rgb(44, 127, 204);
+  padding: 100px 100px 150px 100px;
+}
+
+.validation {
+  color: rgb(239, 79, 79);
+}

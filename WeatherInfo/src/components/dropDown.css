@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+  background-color: rgb(44, 127, 204);
+  padding: 0px 0px 30px 0px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-family: cursive;
+  font-size: 16px;
+}
+input::placeholder {
+  font-family: cursive;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.weather-info {
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #c6c1c1;
+  width: 50%;
+  justify-content: center;
+  margin: 60px auto;
+}
+
+.weather-container {
+  background-color: rgb(44, 127, 204);
+  padding: 50px 100px 0px 100px;
+}
+
+.select {
+  width: 25%;
+  height: 50px;
+  font-size: 18px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 20px;
+}
